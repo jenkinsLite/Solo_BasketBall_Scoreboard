@@ -1,0 +1,100 @@
+/* 
+Figma style and layout design url - https://www.figma.com/design/YC48MCx4frBFtYoz6rNJE6/Basketball-Scoreboard?node-id=0-1&p=f
+Cursed Timer Font url - https://www.fontspace.com/cursed-timer-ulil-font-f29411
+*/
+
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Optional: controls font loading behavior */
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 560px;
+    margin: 0 auto;
+    background-color: #251F47;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.section {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+}
+
+.score {
+    width: 200px;
+    height: 200px;
+    color: red;
+    font-size: 100px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.points {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.points-btn {
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: transparent;
+    border: 2px solid lightblue;
+    border-radius: 6px;
+}
+
+.points-btn:active {
+    transform: scale(0.98); 
+    background-color: #2a1f64;
+}
+
+.new-game-btn {
+    width: 120px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid lightblue;
+    border-radius: 6px;
+}
+
+.new-game-btn:active {
+    transform: scale(0.98); 
+    background-color: #2a1f64;
+}
