@@ -1,8 +1,8 @@
 let homePoints = 0
 let guestPoints = 0
 
-let homeScore = document.getElementById("home-score") 
-let guestScore = document.getElementById("guest-score") 
+const homeScore = document.getElementById("home-score") 
+const guestScore = document.getElementById("guest-score") 
 
 function homeAdd1() {
     homePoints += 1
